@@ -6,6 +6,10 @@ repo init -u https://github.com/LumineDroid/platform_manifest.git -b bynx --git-
 
 git clone https://github.com/SilverEuphonium/android_device_xiaomi_earth.git -b Lumine-16 device/xiaomi/earth
 
+export BUILD_USERNAME=kumiko
+export BUILD_HOSTNAME=pangokceria
+export TZ="Asia/Jakarta"
+
 . build/envsetup.sh
 lunch lineage_earth-bp2a-userdebug
 mka bacon
