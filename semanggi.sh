@@ -31,4 +31,4 @@ export ALLOW_MISSING_DEPENDENCIES=true
 # starts build setup !
 . build/envsetup.sh
 lunch clover_earth-bp3a-userdebug
-mka bacon
+mka clover
