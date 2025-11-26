@@ -9,7 +9,7 @@ repo init -u https://github.com/The-Clover-Project/manifest.git -b 16-qpr1 --git
 /opt/crave/resync.sh || repo sync
 
 # cloning trees
-git clone https://github.com/SilverEpuhonium/android_device_xiaomi_earth.git -b Clover-16.1 device/xiaomi/earth
+git clone https://github.com/SilverEuphonium/android_device_xiaomi_earth.git -b Clover-16.1 device/xiaomi/earth
 git clone https://github.com/AbuRider/proprietary_vendor_xiaomi_earth.git -b lineage-23.1 vendor/xiaomi/earth
 git clone https://github.com/SilverEuphonium/android_kernel_xiaomi_earth.git -b 16 kernel/xiaomi/earth
 
