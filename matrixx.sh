@@ -18,7 +18,8 @@ git clone https://github.com/SilverEuphonium/android_vendor_addons.git -b 16.0 v
 
 export BUILD_USERNAME=kumiko
 export BUILD_HOSTNAME=pangokceria
-export TZ="Asia/Jakarta"
+export TZ=Asia/Jakarta
+export ALLOW_MISSING_DEPENDENCIES=true
 
 . build/envsetup.sh
 brunch earth
