@@ -15,10 +15,14 @@ git clone https://github.com/LineageOS/android_device_mediatek_sepolicy_vndr.git
 git clone https://github.com/AbuRider/priv_keys.git -b matrixx vendor/lineage-priv/keys
 
 rm -rf packages/apps/Jelly
+rm -rf vendor/addons
+git clone https://github.com/SilverEuphonium/android_vendor_addons.git -b 16.0 vendor/addons
+
 export BUILD_USERNAME=kumiko
 export BUILD_HOSTNAME=pangokceria
 export TZ="Asia/Jakarta"
 
 . build/envsetup.sh
 lunch lineage_earth-bp2a-userdebug
+make installclean
 mka bacon
