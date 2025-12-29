@@ -11,7 +11,7 @@ git clone https://github.com/SilverEuphonium/android_kernel_xiaomi_earth.git -b 
 git clone https://github.com/LineageOS/android_hardware_xiaomi.git -b lineage-23.0 hardware/xiaomi
 git clone https://github.com/LineageOS/android_hardware_mediatek.git -b lineage-23.0 hardware/mediatek
 git clone https://github.com/SilverEuphonium/android_device_mediatek_sepolicy_vndr.git -b lineage-23.0 device/mediatek/sepolicy_vndr
-git clone https://github.com/AbuRider/priv_keys.git -b main vendor/lineage-priv/keys
+git clone https://github.com/AbuRider/priv_keys.git -b infinity vendor/infinity-priv/keys
 git clone https://github.com/techyminati/android_vendor_mediatek_ims.git vendor/mediatek/ims
 
 export BUILD_USERNAME=oumae
