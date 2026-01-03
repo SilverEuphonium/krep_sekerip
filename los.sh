@@ -14,8 +14,8 @@ git clone https://github.com/SilverEuphonium/android_device_mediatek_sepolicy_vn
 git clone https://github.com/AbuRider/priv_keys.git -b main vendor/lineage-priv/keys
 git clone https://github.com/techyminati/android_vendor_mediatek_ims.git vendor/mediatek/ims
 
-export BUILD_USERNAME=oumae
-export BUILD_HOSTNAME=euphonium 
+export BUILD_USERNAME=ririsaa
+export BUILD_HOSTNAME=oumae
 
 . build/envsetup.sh
 lunch lineage_earth-bp3a-userdebug
