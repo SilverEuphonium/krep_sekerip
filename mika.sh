@@ -18,8 +18,8 @@ git clone https://github.com/SilverEuphonium/android_device_xiaomi_earth.git -b 
 # rm -rf hardware/lineage/compat
 # git clone https://github.com/LineageOS/android_hardware_lineage_compat.git -b lineage-23.2 hardware/lineage/compat
 
-# export BUILD_USERNAME=ririsaa
-# export BUILD_HOSTNAME=oumae
+export BUILD_USERNAME=ririsaa
+export BUILD_HOSTNAME=oumae
 
 . build/envsetup.sh
 lunch mica_earth-bp4a-userdebug
