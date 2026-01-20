@@ -16,11 +16,14 @@ git clone https://github.com/LineageOS/android_device_mediatek_sepolicy_vndr.git
 git clone https://github.com/AbuRider/sign.git -b evok vendor/evolution-priv/keys
 
 # Export
-export BUILD_USERNAME=kumiko
-export BUILD_HOSTNAME=pangokceria
-export ALLOW_MISSING_DEPENDENCIES=true
+export BUILD_USERNAME=megumi
+export BUILD_HOSTNAME=wind_orchestra
+export TZ="Asia/Jakarta"
+export BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
+export RELAX_USES_LIBRARY_CHECK=true
 
 # starts build setup !
 . build/envsetup.sh
 lunch lineage_earth-userdebug
+make installclean
 m evolution 
