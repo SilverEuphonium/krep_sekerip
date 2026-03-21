@@ -6,7 +6,7 @@ repo init -u https://github.com/Evolution-X/manifest.git -b bq2 --git-lfs
 
 git clone https://github.com/SilverEuphonium/android_device_xiaomi_earth.git -b EvolutionX-16.2 device/xiaomi/earth
 git clone https://github.com/AbuRider/vendor_xiaomi_earth.git -b 16.2 vendor/xiaomi/earth
-git clone https://github.com/AbuRider/android_kernel_xiaomi_earth.git -b 16.2-staging kernel/xiaomi/earth
+git clone --depth=1 https://github.com/AbuRider/android_kernel_xiaomi_earth.git -b 16.2-staging kernel/xiaomi/earth
 
 git clone https://github.com/LineageOS/android_hardware_xiaomi.git -b lineage-23.2 hardware/xiaomi
 git clone https://github.com/LineageOS/android_hardware_mediatek.git -b lineage-23.2 hardware/mediatek
