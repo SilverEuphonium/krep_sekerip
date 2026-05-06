@@ -1,4 +1,8 @@
 #!/bin/bash
+
+repo init -u https://github.com/crdroidandroid/android.git -b 16.0 --git-lfs --no-clone-bundle
+/opt/crave/resync.sh || repo sync
+
 rm -rf device/xiaomi/earth
 git clone https://github.com/Kitauji-High-School/android_device_xiaomi_earth.git -b lineage-23.2 device/xiaomi/earth
 
