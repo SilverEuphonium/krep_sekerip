@@ -1,5 +1,4 @@
 #!/bin/bash
-rm -rf prebuilts/clang/host/linux-x86
 
 repo init -u https://github.com/SilverEuphonium/android_manifest.git -b 16.0 --git-lfs --no-clone-bundle
 /opt/crave/resync.sh || repo sync
@@ -10,4 +9,6 @@ export BUILD_USERNAME=kumiko
 export BUILD_HOSTNAME=kitauji_quartet
 
 . build/envsetup.sh
-brunch earth userdebug
+lunch lineage_earth-bp4a-userdebug
+make installclean
+mka bacon
