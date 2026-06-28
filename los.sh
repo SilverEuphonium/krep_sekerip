@@ -1,10 +1,9 @@
 #!/bin/bash
-rm -rf prebuilts/clang/host/linux-x86
 
-repo init -u https://github.com/SilverEuphonium/android_manifest.git -b 16.0 --git-lfs --no-clone-bundle
+repo init --depth=1 -u https://github.com/Lunaris-AOSP/android -b test --git-lfs
 /opt/crave/resync.sh # sync source
 
-git clone https://github.com/Kitauji-High-School/android_device_xiaomi_earth.git -b crDroid-16.2 device/xiaomi/earth
+git clone https://github.com/Kitauji-High-School/android_device_xiaomi_earth.git -b Lunaris-16.2 device/xiaomi/earth
 
 export BUILD_USERNAME=kumiko
 export BUILD_HOSTNAME=kitauji_quartet
